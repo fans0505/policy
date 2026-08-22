@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light dark" />
+  <title>Jelly Bonk Support</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f4f6fb;
+      --card: #ffffff;
+      --text: #172033;
+      --muted: #626c7f;
+      --line: #dde3ee;
+      --accent: #4f46e5;
+      --note: #eef2ff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    main {
+      width: min(100% - 32px, 760px);
+      margin: 0 auto;
+      padding: 28px 0 44px;
+    }
+    article {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: clamp(20px, 5vw, 40px);
+      box-shadow: 0 12px 32px rgba(23, 32, 51, 0.06);
+    }
+    h1 { margin: 0 0 6px; font-size: clamp(28px, 7vw, 40px); line-height: 1.15; }
+    h2 { margin: 30px 0 8px; font-size: 20px; line-height: 1.3; }
+    p, ol { margin: 10px 0; }
+    ol { padding-left: 22px; }
+    .meta { color: var(--muted); font-size: 14px; }
+    .note {
+      margin: 22px 0;
+      padding: 14px 16px;
+      background: var(--note);
+      border-radius: 12px;
+    }
+    nav { display: flex; flex-wrap: wrap; gap: 12px 20px; margin-top: 30px; }
+    a { color: var(--accent); }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0d1220;
+        --card: #151c2c;
+        --text: #edf1fa;
+        --muted: #aab4c8;
+        --line: #2a3449;
+        --accent: #a5b4fc;
+        --note: #20294a;
+      }
+      article { box-shadow: none; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article>
+      <h1>Jelly Bonk Support</h1>
+      <p class="meta">Help for the bouncy jelly auto-battler</p>
+
+      <p class="note">Jelly Bonk works fully offline. There are no ads, no in-app purchases, and no account is required.</p>
+
+      <h2>Quick Troubleshooting</h2>
+      <ol>
+        <li>Close and reopen Jelly Bonk.</li>
+        <li>Restart your iPhone or iPad.</li>
+        <li>Install the latest iOS or iPadOS update available for your device.</li>
+        <li>Make sure your device has enough free storage.</li>
+      </ol>
+
+      <h2>Gameplay Tips</h2>
+      <ol>
+        <li>Your strategy happens before battle: pick a jelly and a skill in the level screen.</li>
+        <li>Elements counter each other in a triangle: fire beats grass, grass beats ice, ice beats fire. The counter arrow is always shown.</li>
+        <li>Stacking two status effects triggers a reaction: Burn + Chill = Steam Burst, Chill + Poison = Binding Vines, Burn + Poison = Corrosion.</li>
+        <li>After 40 seconds the syrup boils and the whole bowl heats up — plan to win before that.</li>
+      </ol>
+
+      <h2>Your Save Data</h2>
+      <p>Progress is stored locally on your device. Jelly Bonk does not upload your data anywhere. Deleting the app removes its local save data, so remove the app only when you want to start over.</p>
+
+      <h2>Contact Support</h2>
+      <p>Email <a href="mailto:928669937@qq.com">928669937@qq.com</a>. To help us investigate, include your device model, iOS or iPadOS version, Jelly Bonk version, and the steps that caused the issue. Please do not send passwords or other sensitive information.</p>
+
+      <nav aria-label="Legal links">
+        <a href="cricket_privacy_policy.html">Privacy Policy</a>
+        <a href="cricket_user_agreement.html">User Agreement</a>
+      </nav>
+    </article>
+  </main>
+</body>
+</html>
