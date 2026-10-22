@@ -1,123 +1,28 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="color-scheme" content="light dark" />
-  <title>Mosika Pets Support</title>
-  <style>
-    :root {
-      color-scheme: light dark;
-      --bg: #f4f6fb;
-      --card: #ffffff;
-      --text: #172033;
-      --muted: #626c7f;
-      --line: #dde3ee;
-      --accent: #4f46e5;
-      --note: #eef2ff;
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--text);
-      font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    }
-    main {
-      width: min(100% - 32px, 760px);
-      margin: 0 auto;
-      padding: 28px 0 44px;
-    }
-    article {
-      background: var(--card);
-      border: 1px solid var(--line);
-      border-radius: 18px;
-      padding: clamp(20px, 5vw, 40px);
-      box-shadow: 0 12px 32px rgba(23, 32, 51, 0.06);
-    }
-    h1 { margin: 0 0 6px; font-size: clamp(28px, 7vw, 40px); line-height: 1.15; }
-    h2 { margin: 30px 0 8px; font-size: 20px; line-height: 1.3; }
-    p, ol { margin: 10px 0; }
-    ol { padding-left: 22px; }
-    .meta { color: var(--muted); font-size: 14px; }
-    .note {
-      margin: 22px 0;
-      padding: 14px 16px;
-      background: var(--note);
-      border-radius: 12px;
-    }
-    nav { display: flex; flex-wrap: wrap; gap: 12px 20px; margin-top: 30px; }
-    a { color: var(--accent); }
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --bg: #0d1220;
-        --card: #151c2c;
-        --text: #edf1fa;
-        --muted: #aab4c8;
-        --line: #2a3449;
-        --accent: #a5b4fc;
-        --note: #20294a;
-      }
-      article { box-shadow: none; }
-    }
-  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Mosika Pets — Support. Help, contact information, and legal information from the App developer.">
+  <title>Mosika Pets · Support</title>
+  <link rel="stylesheet" href="product-policy.css">
+  <script src="product-policy.js" defer></script>
 </head>
-<body>
+<body data-brand="aiwidget" data-product="Mosika Pets">
   <main>
-    <article>
-      <h1>Mosika Pets Support</h1>
-      <p class="meta">Help for AI pixel characters and animated Widgets</p>
-
-      <p class="note">Creating or refining a character requires an internet connection. Characters already saved on your device remain available to the App and Widget without generating them again.</p>
-
-      <h2>Quick Troubleshooting</h2>
-      <ol>
-        <li>Close and reopen Mosika Pets.</li>
-        <li>Check your internet connection, then retry the action.</li>
-        <li>Restart your iPhone or iPad.</li>
-        <li>Install the latest iOS or iPadOS update available for your device.</li>
-        <li>Make sure your device has enough free storage for character frames.</li>
-      </ol>
-
-      <h2>AI Generation</h2>
-      <p>If a character fails to generate or does not match your idea:</p>
-      <ol>
-        <li>Use a short, concrete description of the character's appearance and personality.</li>
-        <li>Add an optional color preference and choose a pixel size appropriate for your Widget.</li>
-        <li>Use Apply Changes to refine one or two details at a time.</li>
-        <li>If the service is temporarily unavailable, wait a moment and retry.</li>
-      </ol>
-      <p>Please do not include names, account details, health information, or other sensitive personal information in a prompt.</p>
-
-      <h2>Widget Setup and Refresh</h2>
-      <ol>
-        <li>Save a generated character in Mosika Pets.</li>
-        <li>Return to the Home Screen, long-press an empty area, choose Edit, and add the Mosika Pets Widget.</li>
-        <li>To display a different character, set it as the default in Mosika Pets or use Edit Widget when that option is available.</li>
-        <li>If a Widget does not refresh, open Mosika Pets once, confirm the character still exists, and wait for the next system Widget refresh.</li>
-      </ol>
-
-      <h2>Subscriptions and Generation Packs</h2>
-      <ol>
-        <li>Use Restore Purchases in Mosika Pets to recover an active subscription.</li>
-        <li>Confirm that the device is signed in to the Apple Account used for the purchase.</li>
-        <li>Subscriptions can be managed or canceled from the Subscriptions page of your Apple Account.</li>
-        <li>Generation packs are consumable purchases. In the current version, their balance is stored locally and may not be recoverable after uninstalling the App, erasing device data, or changing devices.</li>
-      </ol>
-
-      <h2>AI Data Permission</h2>
-      <p>You can review or withdraw AI data-processing permission from Mosika Pets Settings. After withdrawal, no new generation request is sent to the AI service, while existing local creations remain available to view or delete.</p>
-
-      <h2>Contact Support</h2>
-      <p>Email <a href="mailto:928669937@qq.com">928669937@qq.com</a>. To help us investigate, include your device model, iOS or iPadOS version, Mosika Pets version, and the steps that caused the issue. Please do not send passwords, purchase credentials, prompts containing private information, or other sensitive data.</p>
-
-      <nav aria-label="Legal links">
-        <a href="aiwidget_privacy_policy.html">Privacy Policy</a>
-        <a href="aiwidget_user_agreement.html">User Agreement</a>
-        <a href="aiwidget_payment_agreement.html">Payment Agreement</a>
-        <a href="aiwidget_ai_content_policy.html">AI Content Policy</a>
+    <div class="topbar">
+      <a class="brand" data-policy href="aiwidget_support.html">Mosika Pets</a>
+      <nav class="languages" aria-label="Language">
+        <a data-switch="en" href="?lang=en" lang="en">English</a>
+        <a data-switch="zh-Hans" href="?lang=zh-Hans" lang="zh-Hans">简体中文</a>
+        <a data-switch="zh-Hant" href="?lang=zh-Hant" lang="zh-Hant">繁體中文</a>
       </nav>
-    </article>
+    </div>
+    <article><div data-lang="en" lang="en"><header><h1>Support</h1><p class="meta">Mosika Pets · Effective October 22, 2026</p></header><aside class="contact"><h2>Contact us</h2><p>These pages are maintained by the developer listed on the App Store. For product, privacy, or content questions, contact us at</p><a class="email" href="mailto:928669937@qq.com?subject=Mosika%20Pets%20support">928669937@qq.com</a></aside><p>Help with Mosika Pets. Browse the answers below or email us for product, privacy, or content support.</p><p class="note">When contacting us, include your device model, iOS version, App version, and the steps that caused the issue. Screenshots are optional; remove private information first. Never send passwords, full payment details, or unnecessary personal information.</p><section><h2>Create or refine a companion</h2><p>Describe the appearance and personality you want, choose a color preference and pixel size, then create a character. For refinements, request one or two clear changes at a time. New creations need an internet connection; saved creations remain local.</p></section><section><h2>A creation does not finish</h2><p>Check your connection, reopen Mosika Pets, and retry after a short wait. Check your remaining usage in the App. If the service is temporarily unavailable, allow time before retrying. Do not uninstall the App to fix a balance issue.</p></section><section><h2>Add or refresh a Widget</h2><p>Save a character first. On the Home Screen, touch and hold an empty area, use Edit to add a Widget, and choose Mosika Pets. Set the character you want in the App or edit the Widget’s choice where available. If it looks stale, open the App once and wait for iOS to refresh it.</p></section><section><h2>Restore a purchase or cancel a subscription</h2><p>Use Restore Purchases in the App with the Apple Account used to subscribe. Manage or cancel subscriptions in iOS Settings → your name → Subscriptions. <a href="https://support.apple.com/en-us/118428">Apple’s cancellation guide</a> and <a href="https://support.apple.com/en-us/118223">refund guide</a> explain the next steps. Deleting the App does not cancel a subscription.</p></section><section><h2>Generation-pack balances</h2><p>Generation packs are consumable purchases. Their balance is stored on this device and may not be recoverable after App removal, device erasure, or switching devices. Contact support before reinstalling if a balance looks wrong. Include the purchase date and product name; never send payment credentials.</p></section><section><h2>Privacy and saved creations</h2><p>You can withdraw future online-creation permission in Settings. Existing creations remain available. Delete a character from the collection to remove its local data and images. Saved creations are not backed up to an account-based cloud library.</p></section><section><h2>Report an unsafe result or rights concern</h2><p>Email us with the character description and relevant result after removing private information. Explain whether the problem involves inappropriate content, another person’s rights, or an unexpected generation.</p></section><nav class="related" aria-label="Help & legal"><a data-policy href="aiwidget_privacy_policy.html?lang=en">Privacy Policy</a><a data-policy href="aiwidget_user_agreement.html?lang=en">User Agreement</a><a data-policy href="aiwidget_support.html?lang=en" aria-current="page">Support</a><a data-policy href="aiwidget_payment_agreement.html?lang=en">Purchase Terms</a><a data-policy href="aiwidget_ai_content_policy.html?lang=en">Content Guidelines</a></nav></div>
+<div data-lang="zh-Hans" lang="zh-Hans" hidden><header><h1>帮助与支持</h1><p class="meta">Mosika Pets · 生效日期：2026 年 10 月 22 日</p></header><aside class="contact"><h2>联系我们</h2><p>本页面由 App Store 所列开发者维护。如有产品、隐私或内容相关问题，请通过以下邮箱联系我们：</p><a class="email" href="mailto:928669937@qq.com?subject=Mosika%20Pets%20support">928669937@qq.com</a></aside><p>这里提供 Mosika Pets 的常见问题帮助。产品、隐私或内容相关问题均可通过邮件联系。</p><p class="note">联系时请说明设备型号、iOS 版本、App 版本和复现步骤。可按需提供截图，但请先遮盖私人信息。切勿发送密码、完整支付资料或不必要的个人信息。</p><section><h2>创建或微调伙伴</h2><p>描述你希望的外观与性格，选择配色偏好和像素尺寸后创建角色。微调时，每次提出一两项清晰的修改要求。新创作需要网络连接；已保存作品保留在本机。</p></section><section><h2>创作未完成</h2><p>检查网络，重新打开 Mosika Pets，稍后重试，并在应用中检查剩余用量。如服务暂不可用，请等待后再试。不要通过卸载 App 排查余额问题。</p></section><section><h2>添加或刷新小组件</h2><p>先保存角色。在主屏幕长按空白处，选择编辑并添加 Mosika Pets 小组件。在 App 中设定展示角色，或在可用时编辑小组件选择。如展示未更新，请打开一次 App，等待 iOS 刷新。</p></section><section><h2>恢复购买或取消订阅</h2><p>使用订阅时的 Apple 账户，在应用中选择恢复购买。可在 iOS 设置 → 你的姓名 → 订阅中管理或取消。<a href="https://support.apple.com/en-us/118428">Apple 取消订阅指南</a>与<a href="https://support.apple.com/en-us/118223">退款指南</a>提供详细步骤。删除 App 不会取消订阅。</p></section><section><h2>生成包余额</h2><p>生成包属于消耗型购买，余额保存在当前设备，删除 App、抹掉设备或更换设备后可能无法恢复。余额异常时，请在重新安装前联系支持，并提供购买日期与产品名称；切勿发送支付凭据。</p></section><section><h2>隐私与已存作品</h2><p>可在设置中撤回后续在线创作授权，已有作品仍可使用。在图鉴中删除角色可移除其本机数据与图片。作品不会备份到基于账号的云端资料库。</p></section><section><h2>反馈不当结果或权利问题</h2><p>请先移除私人信息，再将角色描述与相关结果发至支持邮箱，并说明是不当内容、涉及他人权利，还是生成结果异常。</p></section><nav class="related" aria-label="帮助与协议"><a data-policy href="aiwidget_privacy_policy.html?lang=zh-Hans">隐私政策</a><a data-policy href="aiwidget_user_agreement.html?lang=zh-Hans">用户协议</a><a data-policy href="aiwidget_support.html?lang=zh-Hans" aria-current="page">帮助与支持</a><a data-policy href="aiwidget_payment_agreement.html?lang=zh-Hans">购买条款</a><a data-policy href="aiwidget_ai_content_policy.html?lang=zh-Hans">内容使用规范</a></nav></div>
+<div data-lang="zh-Hant" lang="zh-Hant" hidden><header><h1>幫助與支援</h1><p class="meta">Mosika Pets · 生效日期：2026 年 10 月 22 日</p></header><aside class="contact"><h2>聯絡我們</h2><p>本頁面由 App Store 所列開發者維護。如有產品、隱私或內容相關問題，請透過以下信箱聯絡我們：</p><a class="email" href="mailto:928669937@qq.com?subject=Mosika%20Pets%20support">928669937@qq.com</a></aside><p>這裡提供 Mosika Pets 的常見問題協助。產品、隱私或內容相關問題均可透過電子郵件聯絡。</p><p class="note">聯絡時請說明裝置型號、iOS 版本、App 版本及重現步驟。可按需提供螢幕截圖，但請先遮蓋私人資訊。切勿傳送密碼、完整付款資料或不必要的個人資訊。</p><section><h2>建立或微調夥伴</h2><p>描述你希望的外觀與性格，選擇配色偏好及像素尺寸後建立角色。微調時，每次提出一兩項清晰的修改要求。新創作需要網路連線；已儲存作品保留在本機。</p></section><section><h2>創作未完成</h2><p>檢查網路，重新開啟 Mosika Pets，稍後重試，並在應用程式中檢查剩餘用量。如服務暫不可用，請等待後再試。不要透過解除安裝 App 排查餘額問題。</p></section><section><h2>加入或重新整理小工具</h2><p>先儲存角色。在主畫面長按空白處，選擇編輯並加入 Mosika Pets 小工具。在 App 中設定顯示角色，或在可用時編輯小工具選擇。如顯示未更新，請開啟一次 App，等待 iOS 重新整理。</p></section><section><h2>回復購買或取消訂閱</h2><p>使用訂閱時的 Apple 帳號，在應用程式中選擇回復購買。可在 iOS 設定 → 你的姓名 → 訂閱中管理或取消。<a href="https://support.apple.com/en-us/118428">Apple 取消訂閱指南</a>與<a href="https://support.apple.com/en-us/118223">退款指南</a>提供詳細步驟。刪除 App 不會取消訂閱。</p></section><section><h2>生成包餘額</h2><p>生成包屬於消耗型購買，餘額儲存在目前裝置，刪除 App、清除裝置或更換裝置後可能無法回復。餘額異常時，請在重新安裝前聯絡支援，並提供購買日期與產品名稱；切勿傳送付款憑證。</p></section><section><h2>隱私與已存作品</h2><p>可在設定中撤回後續線上創作授權，既有作品仍可使用。在圖鑑中刪除角色可移除其本機資料與圖片。作品不會備份到以帳號為基礎的雲端資料庫。</p></section><section><h2>回報不當結果或權利問題</h2><p>請先移除私人資訊，再將角色描述與相關結果傳送至支援信箱，並說明是不當內容、涉及他人權利，還是生成結果異常。</p></section><nav class="related" aria-label="幫助與協議"><a data-policy href="aiwidget_privacy_policy.html?lang=zh-Hant">隱私權政策</a><a data-policy href="aiwidget_user_agreement.html?lang=zh-Hant">使用者協議</a><a data-policy href="aiwidget_support.html?lang=zh-Hant" aria-current="page">幫助與支援</a><a data-policy href="aiwidget_payment_agreement.html?lang=zh-Hant">購買條款</a><a data-policy href="aiwidget_ai_content_policy.html?lang=zh-Hant">內容使用規範</a></nav></div></article>
+    <footer>© 2026 Mosika Pets</footer>
   </main>
 </body>
 </html>
